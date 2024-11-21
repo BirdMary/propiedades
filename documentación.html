@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicación de Propiedades CSS</title>
+    <link href="documentación.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Guía Completa de Propiedades CSS</h1>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="propiedad">
+                    <h3>Textos</h3>
+                    <p class="descripcion">Estas propiedades controlan la apariencia del texto en los elementos.</p>
+                    <div class="ejemplo">
+                        <p><strong>color:</strong> <span class="codigo">color: red;</span> (cambia el color del texto).</p>
+                        <p><strong>font-family:</strong> <span class="codigo">font-family: Arial, sans-serif;</span> (especifica la fuente).</p>
+                        <p><strong>font-size:</strong> <span class="codigo">font-size: 16px;</span> (cambia el tamaño del texto).</p>
+                        <p><strong>font-weight:</strong> <span class="codigo">font-weight: bold;</span> (hace el texto en negrita).</p>
+                        <p><strong>line-height:</strong> <span class="codigo">line-height: 1.5;</span> (espacio entre líneas).</p>
+                        <p><strong>text-align:</strong> <span class="codigo">text-align: center;</span> (alinea el texto al centro).</p>
+                        <p><strong>letter-spacing:</strong> <span class="codigo">letter-spacing: 2px;</span> (espacio entre las letras).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="propiedad">
+                    <h3>Box Model (Modelo de Caja)</h3>
+                    <p class="descripcion">Estas propiedades controlan las dimensiones y el espacio de los elementos.</p>
+                    <div class="ejemplo">
+                        <p><strong>width:</strong> <span class="codigo">width: 300px;</span> (ancho del elemento).</p>
+                        <p><strong>height:</strong> <span class="codigo">height: 200px;</span> (altura del elemento).</p>
+                        <p><strong>padding:</strong> <span class="codigo">padding: 10px;</span> (espacio interno entre el borde y el contenido).</p>
+                        <p><strong>margin:</strong> <span class="codigo">margin: 20px;</span> (espacio externo alrededor del elemento).</p>
+                        <p><strong>border:</strong> <span class="codigo">border: 2px solid black;</span> (borde alrededor del elemento).</p>
+                        <p><strong>box-sizing:</strong> <span class="codigo">box-sizing: border-box;</span> (incluye el padding y el borde en las dimensiones).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="propiedad">
+                    <h3>Background (Fondo)</h3>
+                    <p class="descripcion">Estas propiedades controlan el fondo de los elementos.</p>
+                    <div class="ejemplo">
+                        <p><strong>background-color:</strong> <span class="codigo">background-color: #f0f0f0;</span> (cambia el color de fondo).</p>
+                        <p><strong>background-image:</strong> <span class="codigo">background-image: url('image.jpg');</span> (establece una imagen de fondo).</p>
+                        <p><strong>background-position:</strong> <span class="codigo">background-position: center;</span> (coloca la imagen de fondo en el centro).</p>
+                        <p><strong>background-repeat:</strong> <span class="codigo">background-repeat: no-repeat;</span> (previene que la imagen de fondo se repita).</p>
+                        <p><strong>background-size:</strong> <span class="codigo">background-size: cover;</span> (ajusta la imagen al tamaño del contenedor).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="propiedad">
+                    <h3>Posicionamiento</h3>
+                    <p class="descripcion">Estas propiedades controlan la posición y el apilamiento de los elementos.</p>
+                    <div class="ejemplo">
+                        <p><strong>position:</strong> <span class="codigo">position: relative;</span> (posiciona un elemento de manera relativa a su posición normal).</p>
+                        <p><strong>top, left, right, bottom:</strong> <span class="codigo">top: 10px;</span> (desplaza el elemento desde la parte superior o inferior).</p>
+                        <p><strong>z-index:</strong> <span class="codigo">z-index: 10;</span> (controla la capa de apilamiento de los elementos).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="propiedad">
+                    <h3>Flexbox</h3>
+                    <p class="descripcion">Flexbox es un sistema de diseño para distribuir espacio entre los elementos.</p>
+                    <div class="ejemplo">
+                        <p><strong>display:</strong> <span class="codigo">display: flex;</span> (activa el modelo Flexbox en un contenedor).</p>
+                        <p><strong>justify-content:</strong> <span class="codigo">justify-content: space-between;</span> (distribuye los elementos de manera uniforme en el contenedor).</p>
+                        <p><strong>align-items:</strong> <span class="codigo">align-items: center;</span> (alinea los elementos de manera vertical).</p>
+                        <p><strong>flex-direction:</strong> <span class="codigo">flex-direction: row;</span> (establece la dirección de los elementos flexibles en fila o columna).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="propiedad">
+                    <h3>Transiciones y Animaciones</h3>
+                    <p class="descripcion">Estas propiedades controlan las transiciones y animaciones de los elementos.</p>
+                    <div class="ejemplo">
+                        <p><strong>transition:</strong> <span class="codigo">transition: all 0.3s ease;</span> (define una transición suave entre los cambios de estilo).</p>
+                        <p><strong>transform:</strong> <span class="codigo">transform: scale(1.2);</span> (escala o rota un elemento).</p>
+                        <p><strong>animation:</strong> <span class="codigo">animation: fadeIn 2s ease-in;</span> (aplica una animación definida).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="propiedad">
+            <h3>Conclusión</h3>
+            <p class="descripcion">CSS tiene muchísimas propiedades, y las que hemos cubierto aquí son solo algunas de las más comunes. Al combinarlas de diferentes maneras, puedes crear interfaces web poderosas y atractivas.</p>
+        </div>
+    </div>
+</body>
+</html>
