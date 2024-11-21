@@ -4,39 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <title>Propiedades de HTML</title>
+    <title>Atributos y Etiquetas de HTML Explicados</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Propiedades de HTML Explicadas</h1>
+            <h1>Atributos y Etiquetas de HTML Explicados</h1>
             <a href="index.html">CSS</a>
-            <p>En esta página se describen las principales propiedades de HTML y sus usos.</p>
+            <p>En esta página se describen las etiquetas HTML más comunes y sus atributos.</p>
         </header>
 
+        <!-- Sección de la etiqueta <a> -->
         <section>
-            <h2>1. Propiedades de Texto</h2>
-            <p><strong>text-align:</strong> Define la alineación del texto. Ejemplo: <code>text-align: center;</code></p>
-            <p><strong>font-family:</strong> Define la fuente del texto. Ejemplo: <code>font-family: Arial, sans-serif;</code></p>
-            <p><strong>color:</strong> Establece el color del texto. Ejemplo: <code>color: red;</code></p>
+            <h2>&lt;a&gt; - Atributos de Enlace</h2>
+            <p><strong>href:</strong> Especifica la URL de destino del enlace. Ejemplo: <code>&lt;a href="https://www.ejemplo.com"&gt;Enlace&lt;/a&gt;</code></p>
+            <p><strong>target:</strong> Define donde se abrirá el enlace. Ejemplo: <code>&lt;a href="https://www.ejemplo.com" target="_blank"&gt;Abrir en nueva pestaña&lt;/a&gt;</code></p>
+            <p><strong>title:</strong> Proporciona un texto que aparece cuando el mouse pasa sobre el enlace. Ejemplo: <code>&lt;a href="#" title="Ir a la página"&gt;Enlace&lt;/a&gt;</code></p>
         </section>
 
+        <!-- Sección de la etiqueta <img> -->
         <section>
-            <h2>2. Propiedades de Enlace</h2>
-            <p><strong>href:</strong> Establece el destino del enlace. Ejemplo: <code>&lt;a href="https://www.ejemplo.com"&gt;Enlace&lt;/a&gt;</code></p>
-            <p><strong>target:</strong> Define dónde se abre el enlace. Ejemplo: <code>target="_blank"</code> (abre el enlace en una nueva pestaña).</p>
+            <h2>&lt;img&gt; - Atributos de Imagen</h2>
+            <p><strong>src:</strong> Define la fuente de la imagen. Ejemplo: <code>&lt;img src="imagen.jpg"&gt;</code></p>
+            <p><strong>alt:</strong> Proporciona un texto alternativo para la imagen. Ejemplo: <code>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</code></p>
+            <p><strong>width:</strong> Define el ancho de la imagen. Ejemplo: <code>&lt;img src="imagen.jpg" width="300"&gt;</code></p>
+            <p><strong>height:</strong> Define la altura de la imagen. Ejemplo: <code>&lt;img src="imagen.jpg" height="200"&gt;</code></p>
         </section>
 
+        <!-- Sección de la etiqueta <input> -->
         <section>
-            <h2>3. Propiedades de Imagen</h2>
-            <p><strong>src:</strong> Define la ubicación del archivo de imagen. Ejemplo: <code>&lt;img src="imagen.jpg"&gt;</code></p>
-            <p><strong>alt:</strong> Proporciona un texto alternativo para la imagen. Ejemplo: <code>&lt;img alt="Descripción de la imagen"&gt;</code></p>
+            <h2>&lt;input&gt; - Atributos de Entrada</h2>
+            <p><strong>type:</strong> Define el tipo de campo de entrada. Ejemplo: <code>&lt;input type="text"&gt;</code></p>
+            <p><strong>placeholder:</strong> Define un texto que se muestra como sugerencia en el campo. Ejemplo: <code>&lt;input type="text" placeholder="Introduce tu nombre"&gt;</code></p>
+            <p><strong>value:</strong> Define el valor por defecto del campo. Ejemplo: <code>&lt;input type="text" value="Juan"&gt;</code></p>
         </section>
 
+        <!-- Sección de la etiqueta <form> -->
         <section>
-            <h2>4. Propiedades de Formulario</h2>
-            <p><strong>input type:</strong> Define el tipo de entrada en un formulario. Ejemplo: <code>&lt;input type="text"&gt;</code></p>
-            <p><strong>label:</strong> Asocia un texto con un campo de formulario. Ejemplo: <code>&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;</code></p>
+            <h2>&lt;form&gt; - Atributos de Formulario</h2>
+            <p><strong>action:</strong> Define la URL donde se enviarán los datos del formulario. Ejemplo: <code>&lt;form action="procesar.php"&gt;</code></p>
+            <p><strong>method:</strong> Define el método HTTP que se usará (GET o POST). Ejemplo: <code>&lt;form method="POST"&gt;</code></p>
+        </section>
+
+        <!-- Sección de las etiquetas <div> y <span> -->
+        <section>
+            <h2>&lt;div&gt; y &lt;span&gt; - Atributos de Contenedor</h2>
+            <p><strong>id:</strong> Define un identificador único para el elemento. Ejemplo: <code>&lt;div id="miDiv"&gt;</code></p>
+            <p><strong>class:</strong> Define una o más clases para estilizar el elemento. Ejemplo: <code>&lt;div class="contenedor"&gt;</code></p>
+        </section>
+
+        <!-- Sección de la etiqueta <table> -->
+        <section>
+            <h2>&lt;table&gt; - Atributos de Tabla</h2>
+            <p><strong>border:</strong> Define el borde de la tabla. Ejemplo: <code>&lt;table border="1"&gt;</code></p>
+            <p><strong>cellspacing:</strong> Define el espacio entre las celdas. Ejemplo: <code>&lt;table cellspacing="10"&gt;</code></p>
+            <p><strong>cellpadding:</strong> Define el espacio dentro de las celdas. Ejemplo: <code>&lt;table cellpadding="5"&gt;</code></p>
+        </section>
+
+        <!-- Sección de la etiqueta <audio> -->
+        <section>
+            <h2>&lt;audio&gt; - Atributos de Audio</h2>
+            <p><strong>src:</strong> Define la fuente del archivo de audio. Ejemplo: <code>&lt;audio src="audio.mp3"&gt;</code></p>
+            <p><strong>controls:</strong> Añade controles de reproducción al audio. Ejemplo: <code>&lt;audio src="audio.mp3" controls&gt;</code></p>
+        </section>
+
+        <!-- Sección de la etiqueta <video> -->
+        <section>
+            <h2>&lt;video&gt; - Atributos de Video</h2>
+            <p><strong>src:</strong> Define la fuente del archivo de video. Ejemplo: <code>&lt;video src="video.mp4"&gt;</code></p>
+            <p><strong>controls:</strong> Añade controles de reproducción al video. Ejemplo: <code>&lt;video src="video.mp4" controls&gt;</code></p>
+            <p><strong>autoplay:</strong> Reproduce el video automáticamente. Ejemplo: <code>&lt;video src="video.mp4" autoplay&gt;</code></p>
         </section>
 
         <footer>
